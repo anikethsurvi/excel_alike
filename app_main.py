@@ -69,7 +69,7 @@ def main():
 			with open(file_name) as f:
 				st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
 
-		local_css("C:/Users/hp/excel_streamlit/style.css")
+		local_css("style.css")
 
 
 if __name__ == '__main__':
